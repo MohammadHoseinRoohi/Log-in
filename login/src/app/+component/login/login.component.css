@@ -14,6 +14,11 @@ div a {
     line-height: 75px;
     font-size: 30px;
 } */
+ span{
+    color: red;
+    font-size: 9px;
+}
+
 .welcome {
     display: flex;
     /* background-color: rgb(243, 130, 38); */
@@ -50,7 +55,7 @@ div a {
     font-size: x-large;
 }
 .Ll button {
-    margin: 0.6em;
+    margin: 0.8em;
     padding: 0.5em 5.2em;
     border-radius: 12px;
     /* border: 0.1em solid rgb(243, 130, 38); */
@@ -63,8 +68,11 @@ div a {
     background-color: aliceblue;
 }
 input {
-    margin: 0.5em;
+    margin: 0.5em 0.5em 0 0.5em;
     padding: 0.5em;
     border: 0.1em solid rgb(243, 130, 38);
     border-radius: 5px;
+}
+.error{
+    background-color: rgb(254, 204, 204);
 }

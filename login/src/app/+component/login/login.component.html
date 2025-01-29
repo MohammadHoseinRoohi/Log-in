@@ -1,27 +1,37 @@
 <div class="main">
     <div class="welcome">
-      <p><b>Welcome My Friend!</b></p>
+        Welcome My Friend!
     </div>
     <div class="login">
-      <div class="box">
-        <div class="L">
-         <b>Log in</b>
+        <div class="box">
+            <div class="L">
+                <b>Log in</b>
+            </div>
+            <div>
+                <input [class.error]="username==''" [(ngModel)]="username" type="text" placeholder="Username">
+                <div class="R">
+                    @if (username=='') {
+                    <span>Required</span>
+                    }
+                </div>
+            </div>
+            <div>
+                <input [class.error]="password==''" [(ngModel)]="password" type="password" placeholder="Password">
+                <div class="R">
+                    @if (password=='') {
+                        <span>Required</span>
+                        }
+                </div>
+            </div>
+            <div class="Ll">
+                <button [disabled]="username=='' || password==''" (click)="data()">Log in</button>
+            </div>
+            <div>
+                <a href="">Forgat password?</a>
+            </div>
+            <div>
+                <a href="">Sing up</a>
+            </div>
         </div>
-        <div>
-          <input type="text" placeholder="Username">
-        </div>
-        <div>
-          <input type="password" placeholder="Password">
-        </div>
-        <div class="Ll">
-          <button class="buttons">Log in</button>
-        </div>
-        <div>
-          <a href="">Forgat password?</a>
-        </div>
-        <div>
-          <a href="">Sing up</a>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
