@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 165, 30);
+}
+div a {
+    font-size: small;
+    color: rgb(30, 30, 186);
+}
+/* .main>div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+.welcome {
+    display: flex;
+    /* background-color: rgb(243, 130, 38); */
+    background-color: #ffffff;
+    color: rgb(243, 130, 38);
+    width: 50%;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login {
+    display: flex;
+    background-color: rgb(243, 130, 38);
+    width: 50%;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    border: 0.1em solid aliceblue;
+    border-radius: 25px;
+    padding: 1.2em;
+    background-color: #ffffff;
+}
+.L {
+    margin: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.Ll button {
+    margin: 0.6em;
+    padding: 0.5em 5.2em;
+    border-radius: 12px;
+    /* border: 0.1em solid rgb(243, 130, 38); */
+    background-color: rgb(100, 100, 100);
+    color: aliceblue;
+}
+.buttons :hover {
+    border: 0.1em solid rgb(243, 130, 38);
+    /* color: rgb(243, 130, 38); */
+    background-color: aliceblue;
+}
+input {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 0.1em solid rgb(243, 130, 38);
+    border-radius: 5px;
+}
